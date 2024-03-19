@@ -6,7 +6,7 @@ import seaborn as sns
 import pandas as pd
 
 sns.set_theme(style="white", rc={"axes.facecolor":(0,0,0,0)})
-PATH = "/Users/danvicente/skola/DD2420 - PGM/labs/Tutorial 7/"
+PATH = "FILEPATH"
 
 def gen_obs(T, n_particles) -> np.ndarray:    
     x = np.zeros((T, n_particles))
